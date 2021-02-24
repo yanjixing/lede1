@@ -16,6 +16,6 @@
 # Add a feed source
 # sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 
-git clone https://github.com/vernesong/OpenClash.git package/luci-app-clash
+svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
 
 git clone https://github.com/Apocalypsor/luci-app-smartdns.git package/luci-app-smartdns
